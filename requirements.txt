@@ -6,6 +6,5 @@ numpy
 scikit-learn
 Pillow
 matplotlib
-fontforge
 svgwrite
-potrace
+pytesseract

@@ -12,10 +12,10 @@ from generate import generate_characters
 from svg_convert import convert_to_svg
 from fontforge_script import create_font
 
-DATA_DIR = Path('../data/raw_pages')
-SEGMENTED_DIR = Path('../data/segmented_characters')
-GENERATED_DIR = Path('../data/generated_characters')
-FONT_DIR = Path('../data/fonts')
+DATA_DIR = Path('data/raw_pages')
+SEGMENTED_DIR = Path('data/segmented_characters')
+GENERATED_DIR = Path('data/generated_characters')
+FONT_DIR = Path('data/fonts')
 LABELS_CSV = 'labels.csv'
 
 def main():
@@ -52,3 +52,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
